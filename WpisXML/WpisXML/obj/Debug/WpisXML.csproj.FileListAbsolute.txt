@@ -1,0 +1,8 @@
+C:\REPO\Blog\WpisXML\WpisXML\bin\Debug\WpisXML.exe.config
+C:\REPO\Blog\WpisXML\WpisXML\bin\Debug\WpisXML.exe
+C:\REPO\Blog\WpisXML\WpisXML\bin\Debug\WpisXML.pdb
+C:\REPO\Blog\WpisXML\WpisXML\obj\Debug\WpisXML.csproj.AssemblyReference.cache
+C:\REPO\Blog\WpisXML\WpisXML\obj\Debug\WpisXML.csproj.SuggestedBindingRedirects.cache
+C:\REPO\Blog\WpisXML\WpisXML\obj\Debug\WpisXML.csproj.CoreCompileInputs.cache
+C:\REPO\Blog\WpisXML\WpisXML\obj\Debug\WpisXML.exe
+C:\REPO\Blog\WpisXML\WpisXML\obj\Debug\WpisXML.pdb

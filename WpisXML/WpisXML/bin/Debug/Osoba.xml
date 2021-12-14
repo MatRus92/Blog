@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<osoba>
+  <imie>Mateusz</imie>
+  <nazwisko>Rus</nazwisko>
+  <zawod>Programista</zawod>
+  <hobby>Siatkowka</hobby>
+</osoba>
