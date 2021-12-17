@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 
 namespace WpisXML
@@ -11,9 +7,31 @@ namespace WpisXML
     {
         static void Main(string[] args)
         {
-            CreateXml();
+            ReadXml();
         }
 
+        static private void ReadXml()
+        {
+            XmlTextReader reader = new XmlTextReader("Osoba.xml");
+            reader.Read();
+            while (reader.Read())
+            {
+                switch (reader.NodeType)
+                {
+                    case XmlNodeType.Element:
+                        Console.Write("<{0}>" , reader.Name);
+                        break;
+                    case XmlNodeType.Text:
+                        Console.Write(reader.Value);
+                        break;
+                    case XmlNodeType.EndElement:
+                        Console.Write("</{0}>", reader.Name);
+                        break;
+                }
+            }
+
+                Console.ReadLine();
+        }
         static private void CreateXml()
         {
             XmlTextWriter writer = new XmlTextWriter("Osoba.xml", System.Text.Encoding.UTF8);
